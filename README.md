@@ -96,4 +96,6 @@ http://127.0.0.1:<port number>/
 Official documentation for installation: 
 [Documentation](https://superset.apache.org/docs/installation/docker-compose/)
 
+## If you liked this repository
 
+* Dont't forget to give this repository a 🌟
