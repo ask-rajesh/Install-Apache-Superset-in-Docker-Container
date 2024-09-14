@@ -82,6 +82,12 @@ Then run below command:
 export TAG=3.1.1
 docker-compose -f docker-compose-image-tag.yml up
 ```
+or
+```
+export TAG=3.1.1
+docker compose -f docker-compose-image-tag.yml up
+```
+depending on your version.
 
 
 If your error resolved properly then you can access your **Apache Superset** below:
