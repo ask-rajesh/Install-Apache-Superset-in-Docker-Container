@@ -31,8 +31,9 @@ http://127.0.0.1:<port number>/
 ```
 *default port number is '8088'* ``` http://127.0.0.1:8088/ ```
 
-username: *admin*
-password: *admin*
+### username: *admin*
+
+### password: *admin*
 
 ## Error
 
