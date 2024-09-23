@@ -102,6 +102,42 @@ http://127.0.0.1:<port number>/
 *default port number is '8088'* ``` http://127.0.0.1:8088/ ```
 
 
+#### useful commands
+
+**note**: if '*docker-compose*' not working then try '*docker compose*'.
+
+* run below to start container in detachable mode, (*-d* used for detachable mode).
+```
+docker-compose -f docker-compose-image-tag.yml up -d
+```
+
+* view logs.
+```
+docker-compose -f docker-compose-image-tag.yml logs
+```
+
+* stop all the container simultaneously.
+```
+docker-compose -f docker-compose-image-tag.yml stop
+```
+
+* start all the container simultaneously.
+```
+docker-compose -f docker-compose-image-tag.yml start
+```
+**note**: you can replace '*docker-compose-image-tag.yml* ' with your yml file.
+
+* see all the running containers.
+```
+docker ps
+```
+* see all the created containers.
+```
+docker ps -a
+```
+
+
+
 ## Documentation
 Official documentation for installation: 
 [Documentation](https://superset.apache.org/docs/installation/docker-compose/)
